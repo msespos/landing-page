@@ -1,0 +1,1 @@
+This is a modest landing page site created while I was going through the new Odin Project Foundations course lessons.
