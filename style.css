@@ -43,6 +43,16 @@ img {
   flex-basis: 300px;
 }
 
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  flex-basis: 75px;
+  color: #E5E7EB;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-1 {
   color: #E5E7EB;
   display: flex;
