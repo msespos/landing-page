@@ -29,8 +29,14 @@ img {
   flex: 0 0 500px;
 }
 
+.container-3 {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 500px;
+}
+
 .header-1 {
-  font-family: Arial, Helvetica, sans-serif;
   color: #E5E7EB;
   display: flex;
   justify-content: space-between;
@@ -65,13 +71,11 @@ img {
 
 .container-1-main-text {
   color: #F9FAF8;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   font-weight: bolder; 
 }
 
 .container-1-sub-text {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #E5E7E8;
 }
@@ -101,10 +105,28 @@ button {
 .image-and-caption {
   display: flex;
   flex-direction: column;
-  flex-basis: 150px;
+  flex-basis: 10%;
   gap: 20px;
 }
 
 .caption {
   text-align: center;
+}
+
+.container-3-main {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 200px;
+}
+
+.proof {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
 }
